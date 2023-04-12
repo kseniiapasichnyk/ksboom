@@ -27,8 +27,14 @@ float:left;
   border:solid 3px pink;
 
 }
-
+#table{
+background-color: blue;
+width:75%;
+height:300px;
+float:left;
+  border:solid 3px pink;
 
 .vidstup{
-margin-top:5px;
+background-color: grey;
+  margin-top:5px;
 margin-bottom:5px;}
