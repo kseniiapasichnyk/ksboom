@@ -22,14 +22,14 @@ margin-bottom:5px;
 }
 #content{
 background-color:rgb(234,153,153);
-width:75%;
+width:60%;
 height:300px;
 float:left;
    border:solid 3px pink;
 }
 #table{
 background-color:rgb(17,85,204);
-width:100%;
+width:13%;
 height:100px;
 clear:both;
    border:solid 3px pink;
