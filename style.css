@@ -12,7 +12,6 @@ height:150px;
 
 }
 #menu{
-background-color: blue;
 width:25%;
 height:300px;
 float:left;
@@ -20,7 +19,6 @@ float:left;
 
 }
 #content{
-background-color: blue;
 width:75%;
 height:300px;
 float:left;
@@ -28,7 +26,6 @@ float:left;
 
 }
 #table{
-background-color: blue;
 width:75%;
 height:300px;
 float:left;
