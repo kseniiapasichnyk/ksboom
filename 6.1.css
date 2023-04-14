@@ -1,5 +1,9 @@
+
 #pp1 {
-  font:italic 8px/1em "Comic Sans MS";
-text-align: justify;
-text-indent: 5.25px;
-}
+    font-style: italic;
+  font-size: 8px;
+  font-family: "Comic Sans MS";
+  line-height: 1;
+  text-align: justify;
+  padding-left: 5.25px;
+    }
