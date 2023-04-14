@@ -1,6 +1,5 @@
-#pp1 {font:italic
-8px/1em "Comic Sans
-MS";
+#pp1 {
+  font:italic 8px/1em "Comic Sans MS";
 text-align: justify;
 text-indent: 5.25px;
 }
