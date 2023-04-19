@@ -1,5 +1,6 @@
 #content {
-  background: yellow;
+  background-color: yellow;
   background-image: url("7.1.jpg");
   background-repeat: space;
+  background-attachment: fixed;
 }
