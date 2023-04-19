@@ -1,7 +1,9 @@
 body {
     background-color: #FFFACD;
     color: #333;
-    background-image: url("12.jpg");
+}
+#header {
+     background-image: url("12.jpg");
     background-repeat: repeat-x;
 }
 #content {
