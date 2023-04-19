@@ -5,3 +5,6 @@
   background-attachment: inherit;
   background-position: top right;
 }
+#container {
+  background-color: tan;
+}
