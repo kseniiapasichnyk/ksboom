@@ -4,7 +4,9 @@ body {
 }
 #header {
      background-image: url("12.jpg");
-    background-repeat: repeat-x;
+     background-repeat: space;
+  background-attachment: fixed;
+  background-position: center;
 }
 #content {
   background-color: green;
