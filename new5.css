@@ -24,13 +24,13 @@ body {
 .block3 {
     background-color: #ea9999;
     float: left;
-    width: 70%;
+    width: 60%;
     height: 500px;
     
 }
 .block4 {
     background-color: #8e7cc3;
-    float: left;
+    float: right;
     width: 21%;
     height: 500px;
     
