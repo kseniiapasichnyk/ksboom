@@ -16,3 +16,6 @@ body {
   background-position: top right;
  border: 1px solid #333;
 }
+#table {
+    border:solid 2px black;
+}
