@@ -1,7 +1,4 @@
-#content {
-  background-color: yellow;
-  background-image: url("7.1.jpg");
-  background-repeat: space;
-  background-attachment: fixed;
-  background-position: center;
+#content {background:
+blue url("7.1.jpg")
+fixed center top norepeat;}
 }
