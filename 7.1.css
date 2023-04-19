@@ -1,4 +1,5 @@
 #content {
   background: yellow;
   background-image: url("7.1.jpg");
+  background-repeat: space;
 }
