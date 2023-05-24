@@ -13,6 +13,24 @@ function myFunction() {
   document.body.style.backgroundPosition="top right"; 
 }
 </script>
+</script>
+    <center>  <p style="font-family:courier;">Оберіть свій настрій, переглянувши фото</p></center>
+<select id="mySelect" onchange="myFunction()">
+  <option value="Радісний">Радісний
+  <option value="Щасливий">Щасливий 
+  <option value="Чудовий">Чудовий
+</select>
+<p id="demo"></p>
 
+<script>
+function myFunction() {
+  var x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "Ви вибрали: " + x;
+}
+</script>
+</select>
 </body>
+  </body>
+     </head>
 </html>
+
