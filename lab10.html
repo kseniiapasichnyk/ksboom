@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
-  
+<body style="background-image:url('b11.png');background-repeat:no-repeat; onmouseover="bigImg(this)"; onmouseout="normalImg(this)">
+
+<button type="button" onclick="myFunction()">Position background image</button>
+
+<script>
+function myFunction() {
+  document.body.style.backgroundPosition="top right"; 
+}
+</script>
+
+</body>
    <head>
     <meta charset="utf-8">
       
- <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b11.png" id="pic1"  alt="Barash" width="128" height="128">
+
       <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b22.png"  alt="Barash" width="128" height="128">
       <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b33.png"  alt="Barash" width="128" height="128"> 
       <script>
