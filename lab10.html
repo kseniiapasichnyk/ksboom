@@ -2,20 +2,25 @@
 <html>
 
 <body style="background-image:url('b11.png');background-repeat:no-repeat; width="128" ;height="128"; onmouseover="bigImg(this)"; onmouseout="normalImg(this)"">
- </body> <body style="background-image:url('b22.png');background-repeat:no-repeat; width="128" ;height="128"; onmouseover="bigImg(this)"; onmouseout="normalImg(this)"">
- </body> <body style="background-image:url('b33.png');background-repeat:no-repeat; width="128" ;height="128"; onmouseover="bigImg(this)"; onmouseout="normalImg(this)"">
+ </body> <body1 style="background-image:url('b22.png');background-repeat:no-repeat; width="128" ;height="128"; onmouseover="bigImg(this)"; onmouseout="normalImg(this)"">
+ </body> <body2 style="background-image:url('b33.png');background-repeat:no-repeat; width="128" ;height="128"; onmouseover="bigImg(this)"; onmouseout="normalImg(this)"">
      </body> 
       <script>
 function bigImg(x) {
   x.style.height = "256px";
   x.style.width = "256px";
   document.body.style.backgroundPosition="top right"; 
+  document.body1.style.backgroundPosition="top right"; 
+  document.body2.style.backgroundPosition="top right"; 
 }
 
 function normalImg(x) {
   x.style.height = "128px";
   x.style.width = "128px";
     document.body.style.backgroundPosition="center"; 
+    document.body1.style.backgroundPosition="center"; 
+    document.body2.style.backgroundPosition="center"; 
+ 
 }
 </script>
     <center>  <p style="font-family:courier;">Оберіть свій настрій, переглянувши фото</p></center>
