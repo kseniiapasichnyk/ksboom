@@ -31,3 +31,4 @@ $("pic1").style.borderColor="red"
 ;
 $("pic1").style.width="50px";
 }
+
