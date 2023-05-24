@@ -4,9 +4,9 @@
    <head>
     <meta charset="utf-8">
       
-   <p id="d"> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b11.png"  alt="Barash" width="128" height="128">
+  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b11.png"  alt="Barash" width="128" height="128">
       <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b22.png"  alt="Barash" width="128" height="128">
-      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b33.png"  alt="Barash" width="128" height="128"> </p>
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b33.png"  alt="Barash" width="128" height="128"> 
       <script>
 function bigImg(x) {
   x.style.height = "256px";
@@ -18,13 +18,8 @@ function normalImg(x) {
   x.style.width = "128px";
 }
          </script>
-         <script>
-function myFunction() {
-  document.getElementById("d").style.backgroundPosition = center;        
-}
-</script>
     <center>  <p style="font-family:courier;">Оберіть свій настрій, переглянувши фото</p></center>
-<select id="mySelect" onchange="myFunction1()">
+<select id="mySelect" onchange="myFunction()">
   <option value="Радісний">Радісний
   <option value="Щасливий">Щасливий 
   <option value="Чудовий">Чудовий
@@ -32,9 +27,10 @@ function myFunction() {
 <p id="demo"></p>
 
 <script>
-function myFunction1() {
+function myFunction() {
   var x = document.getElementById("mySelect").value;
   document.getElementById("demo").innerHTML = "Ви вибрали: " + x;
+   document.getElementById("demo").style.backgroundPosition = "center";
 }
 </script>
 </select>
