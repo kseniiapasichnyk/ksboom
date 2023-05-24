@@ -30,15 +30,26 @@ function normalImg(x) {
 function myFunction() {
   var x = document.getElementById("mySelect").value;
   document.getElementById("demo").innerHTML = "Ви вибрали: " + x;
-  document.getElementById("demo").style.color = "black";
-  document.getElementById("demo").style.backgroundColor = "yellow";    
+  document.getElementById("demo").style.color = "black";   
     document.getElementById("demo").style.borderLeft = "thick solid #0000FF";
    document.getElementById("demo").style.borderTopWidth = "20px";
      document.getElementById("demo").style.fontSize = "x-large";
 }
 </script>
 </select>
-
+      <p>Варіанти відповідей були:</p>
+      <ul id="myList">
+  <li>Радісний</li>
+  <li>Щасливий</li>
+  <li>Чудовий</li>
+</ul>
+<script>
+function myFunction() {
+  document.getElementById("myList").style.listStyleType = "upper-roman";
+    document.getElementById("myList").style.borderTopWidth = "20px";
+     document.getElementById("myList").style.fontSize = "x-large";
+}
+</script>
 <button type="button" onclick="myFunction()">Click Me!</button>
   </body>
      </head>
