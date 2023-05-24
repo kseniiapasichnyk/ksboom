@@ -24,7 +24,7 @@ function myFunction() {
 }
 </script>
     <center>  <p style="font-family:courier;">Оберіть свій настрій, переглянувши фото</p></center>
-<select id="mySelect" onchange="myFunction()">
+<select id="mySelect" onchange="myFunction1()">
   <option value="Радісний">Радісний
   <option value="Щасливий">Щасливий 
   <option value="Чудовий">Чудовий
@@ -32,7 +32,7 @@ function myFunction() {
 <p id="demo"></p>
 
 <script>
-function myFunction() {
+function myFunction1() {
   var x = document.getElementById("mySelect").value;
   document.getElementById("demo").innerHTML = "Ви вибрали: " + x;
 }
