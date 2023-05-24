@@ -2,10 +2,6 @@
 <html>
 
 <body style="background-image:url('b11.png');background-repeat:no-repeat;background-size: 25%, 25%, 25%;">
-
-<h1>HTML Style Object</h1>
-<h2>The backgroundPosition Property</h2>
-
 <button type="button" onclick="myFunction()">Position background image</button>
 
 <script>
@@ -13,7 +9,11 @@ function myFunction() {
   document.body.style.backgroundPosition="top right"; 
 }
 </script>
-
+<style>
+p {
+  border-left-style: dotted;
+}
+</style>
     <center>  <p style="font-family:courier;">Оберіть свій настрій, переглянувши фото</p></center>
 <select id="mySelect" onchange="myFunction()">
   <option value="Радісний">Радісний
