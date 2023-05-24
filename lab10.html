@@ -26,26 +26,31 @@ function normalImg(x) {
 </select>
 <p id="demo"></p>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("mySelect").value;
-  document.getElementById("demo").innerHTML = "Ви вибрали: " + x;
-  document.getElementById("demo").style.color = "black";   
-    document.getElementById("demo").style.borderLeft = "thick solid #0000FF";
-}
-</script>
 </select>
       <p>Варіанти відповідей були:</p>
+      <style> 
+#myList {
+  border: 1px solid black;
+  background-color: lightblue;
+  width: 300px;
+  height: 300px;
+}
+</style>
       <ul id="myList">
   <li>Радісний</li>
   <li>Щасливий</li>
   <li>Чудовий</li>
 </ul>
 <script>
-function myFunction2() {
+function myFunction() {
+   var x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "Ви вибрали: " + x;
+  document.getElementById("demo").style.color = "black";   
+    document.getElementById("demo").style.borderLeft = "thick solid #0000FF";
   document.getElementById("myList").style.listStyleType = "upper-roman";
     document.getElementById("myList").style.borderTopWidth = "20px";
      document.getElementById("myList").style.fontSize = "x-large";
+    document.getElementById("myList").style.paddingRight = "50px";
 }
 </script>
 <button type="button" onclick="myFunction()">Click Me!</button>
