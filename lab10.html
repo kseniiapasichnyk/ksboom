@@ -1,39 +1,18 @@
 <!DOCTYPE html>
 <html>
 
-<body style="background-image:url('b11.png');background-repeat:no-repeat; onmouseover="bigImg(this)"; onmouseout="normalImg(this)"">
- </body> 
-      <script>
-function bigImg(x) {
-  x.style.height = "256px";
-  x.style.width = "256px";
-  document.body.style.backgroundPosition="top right"; 
+<body style="background-image:url('b11.png'), url('b22.png'),url('b33.png');background-repeat:no-repeat;">
 
-}
+<h1>HTML Style Object</h1>
+<h2>The backgroundPosition Property</h2>
 
-function normalImg(x) {
-  x.style.height = "128px";
-  x.style.width = "128px";
-    document.body.style.backgroundPosition="center"; 
- 
-}
-</script>
-    <center>  <p style="font-family:courier;">Оберіть свій настрій, переглянувши фото</p></center>
-<select id="mySelect" onchange="myFunction()">
-  <option value="Радісний">Радісний
-  <option value="Щасливий">Щасливий 
-  <option value="Чудовий">Чудовий
-</select>
-<p id="demo"></p>
+<button type="button" onclick="myFunction()">Position background image</button>
 
 <script>
 function myFunction() {
-  var x = document.getElementById("mySelect").value;
-  document.getElementById("demo").innerHTML = "Ви вибрали: " + x;
+  document.body.style.backgroundPosition="top right"; 
 }
 </script>
-</select>
+
 </body>
-  </body>
-     </head>
 </html>
