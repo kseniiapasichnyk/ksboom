@@ -1,13 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<title>Гіпертекстовий
-документ до Лаб 10</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="style/style.css">
-<script src="lab10.js"></script>
-</head>
-<body>
-<img src="b11.png" alt="логотип сайту" id="pic1" onmouseover="f()" onmouseout="g()">
+
+<body style="background-image:url('b11.png');background-repeat:no-repeat; background-width="128" ;background-height="128"; background-onmouseover="bigImg(this)"; background-onmouseout="normalImg(this)"">
+ </body> 
+      <script>
+function bigImg(x) {
+  x.style.height = "256px";
+  x.style.width = "256px";
+  document.body.style.backgroundPosition="top right"; 
+
+}
+
+function normalImg(x) {
+  x.style.height = "128px";
+  x.style.width = "128px";
+    document.body.style.backgroundPosition="center"; 
+ 
+}
+</script>
+    <center>  <p style="font-family:courier;">Оберіть свій настрій, переглянувши фото</p></center>
+<select id="mySelect" onchange="myFunction()">
+  <option value="Радісний">Радісний
+  <option value="Щасливий">Щасливий 
+  <option value="Чудовий">Чудовий
+</select>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "Ви вибрали: " + x;
+}
+</script>
+</select>
 </body>
+  </body>
+     </head>
 </html>
