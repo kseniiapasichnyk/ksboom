@@ -20,11 +20,11 @@ function normalImg(x) {
          </script>
          <script>
 function myFunction() {
-  document.getElementById("d").style.backgroundPosition = "center";        
+  document.getElementById("d").style.backgroundPosition = center;        
 }
 </script>
     <center>  <p style="font-family:courier;">Оберіть свій настрій, переглянувши фото</p></center>
-<select id="mySelect" onchange="myFunction1()">
+<select id="mySelect" onchange="myFunction()">
   <option value="Радісний">Радісний
   <option value="Щасливий">Щасливий 
   <option value="Чудовий">Чудовий
@@ -32,7 +32,7 @@ function myFunction() {
 <p id="demo"></p>
 
 <script>
-function myFunction1() {
+function myFunction() {
   var x = document.getElementById("mySelect").value;
   document.getElementById("demo").innerHTML = "Ви вибрали: " + x;
 }
