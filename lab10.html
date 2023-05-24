@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-<body style="background-image:url('b11.png');background-repeat:no-repeat; onmouseover="bigImg(this)"; onmouseout="normalImg(this)">
+
+<body style="background-image:url('img_tree.png');background-repeat:no-repeat;">
+
+<h1>HTML Style Object</h1>
+<h2>The backgroundPosition Property</h2>
 
 <button type="button" onclick="myFunction()">Position background image</button>
 
@@ -11,47 +15,5 @@ function myFunction() {
 </script>
 
 </body>
-   <head>
-    <meta charset="utf-8">
-      
-
-      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b22.png"  alt="Barash" width="128" height="128">
-      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b33.png"  alt="Barash" width="128" height="128"> 
-      <script>
-function bigImg(x) {
-  x.style.height = "256px";
-  x.style.width = "256px";
-}
-
-function normalImg(x) {
-  x.style.height = "128px";
-  x.style.width = "128px";
-}
-</script>
-     <button type="button" onclick="myFunction()">Position background image</button>
-
-<script>
-function myFunction() {
-  document.images[0].backgroundPosition="top right"; 
-}
-</script>
-  
-    <center>  <p style="font-family:courier;">Оберіть свій настрій, переглянувши фото</p></center>
-<select id="mySelect" onchange="myFunction()">
-  <option value="Радісний">Радісний
-  <option value="Щасливий">Щасливий 
-  <option value="Чудовий">Чудовий
-</select>
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("mySelect").value;
-  document.getElementById("demo").innerHTML = "Ви вибрали: " + x;
-}
-</script>
-</select>
-</body>
-  </body>
-     </head>
 </html>
+
