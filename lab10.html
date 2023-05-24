@@ -3,9 +3,9 @@
    <head>
     <meta charset="utf-8">
       
-    <center><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b11.png"  alt="Barash" width="128" height="128">
+   <p id="demo"> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b11.png"  alt="Barash" width="128" height="128">
       <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b22.png"  alt="Barash" width="128" height="128">
-      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b33.png"  alt="Barash" width="128" height="128"> </center>
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="b33.png"  alt="Barash" width="128" height="128"> </p>
       <script>
 function bigImg(x) {
   x.style.height = "256px";
@@ -16,7 +16,15 @@ function normalImg(x) {
   x.style.height = "128px";
   x.style.width = "128px";
 }
+         </script>
+         <script>
+function myFunction() {
+  document.getElementById("demo").style.backgroundPosition = "center";        
+}
+         
+
 </script>
+      <button type="button" onclick="myFunction()">Click Me!</button>
     <center>  <p style="font-family:courier;">Оберіть свій настрій, переглянувши фото</p></center>
 <select id="mySelect" onchange="myFunction()">
   <option value="Радісний">Радісний
